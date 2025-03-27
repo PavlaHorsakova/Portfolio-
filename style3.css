@@ -127,14 +127,15 @@ li > a {
 .photo {
   z-index: 3;
   position: relative;
-  left: 0x;
+  left: 0;
   position: relative;
   top: 0px;
 }
 
-.photo > img {
+.photo img {
   object-fit: cover;
   width: 400px;
+  border-radius: 400px;
   -webkit-filter: drop-shadow(20px -5px #e0479e);
   filter: drop-shadow(20px -5px #e0479e);
 }
